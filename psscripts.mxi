@@ -1,0 +1,36 @@
+<macromedia-extension
+	 name="Ps Scripts"
+	 version="1.0.0"
+	 type="Command"
+	 requires-restart="true">
+
+	<author name="Mk-10:cellfusion" />
+
+	<products>
+		<product name="Photoshop" version="11" primary="true" required="true" />
+		<product name="Photoshop32" version="11" primary="true" required="true" />
+	</products>
+
+	<description>
+	<![CDATA[
+	hoge
+	]]>
+	</description>
+
+	<ui-access>
+	<![CDATA[
+	hoge
+	]]>
+	</ui-access>
+
+	<license-agreement>
+	<![CDATA[
+	hoge
+	]]>
+	</license-agreement>
+
+	<files>
+		<file source="exportSelectedLayer.jsx" destination="$photoshopappfolder/Presets/Scripts" />
+	</files>
+
+</macromedia-extension>
